@@ -17,3 +17,24 @@
     }
 
 }
+
+.section-portfolio {
+
+    display: flex;
+    background-color: map-get($color-secondary, "color-300");
+
+    &__container {
+
+        max-width: 114rem;
+
+    }
+
+    &__cards-box {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+}
