@@ -1,0 +1,58 @@
+.footer {
+
+    display: flex;
+    background-color: map-get($color-secondary, "color-100");
+
+    &__container {
+
+        max-width: 114rem;
+
+    }
+
+    &__row {
+
+        display: flex;
+
+    }
+
+    &__copyright-box {
+
+        display: flex;
+        margin-right: 10rem;
+
+    }
+
+    &__copyright {
+
+        font-size: 1.6rem;
+
+    }
+
+    &__icons-box {
+
+        display: flex;
+
+    }
+
+    &__icon-box {
+
+        padding: 1.5rem;
+        background-color: map-get($color-secondary, "color-900");
+        border-radius: 50%;
+
+        &:not(:last-child) {
+
+            margin-right: 1rem;
+
+        }
+
+    }
+
+    &__icon {
+
+        font-size: 3rem;
+        color: $color-white;
+
+    }
+
+}
