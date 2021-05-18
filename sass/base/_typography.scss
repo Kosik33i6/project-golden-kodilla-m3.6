@@ -34,3 +34,46 @@ html {
 
     }
 }
+
+.heading-secondary {
+
+    color: map-get($color-secondary, "color-900");
+
+    &--title,
+    &--subtitle {
+
+        display: block;
+        text-align: center;
+        line-height: 1.7;
+
+    }
+
+    &--title {
+
+        text-transform: uppercase;
+        font-size: 5rem;
+
+    }
+
+    &--subtitle {
+
+        font-size: 2rem;
+        font-style: italic;
+        font-weight: 300;
+
+    }
+
+}
+
+.heading-tertiary {
+
+    font-size: 2.5rem;
+    color: map-get($color-secondary, "color-900");
+
+}
+
+.description {
+
+    font-size: 1.6rem;
+
+}

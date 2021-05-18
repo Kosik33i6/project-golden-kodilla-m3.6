@@ -1,0 +1,19 @@
+.section-services {
+
+    display: flex;
+    background-color: map-get($color-secondary, "color-100");
+
+    &__container {
+
+        max-width: 114rem;
+
+    }
+
+    &__cards-box {
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+}

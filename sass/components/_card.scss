@@ -1,0 +1,31 @@
+.card {
+
+    text-align: center;
+    flex-basis: 30%;
+    justify-content: space-between;
+
+    &__icon-box {
+
+        display: inline-block;
+        height: 8.5rem;
+        width: 8.5rem;
+        border: 3px solid darken($color-primary-light, 15%);
+        border-radius: 50%;
+        text-align: center;
+        position: relative;
+
+    }
+
+    &__icon {
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        font-size: 4.5rem;
+        color: darken($color-primary-light, 15%);
+
+    }
+
+}
