@@ -1,0 +1,26 @@
+.btn {
+
+    &,
+    &:link,
+    &:visited {
+
+        display: inline-block;
+        width: 30rem;
+        // height: $btn-height;
+        line-height: $btn-height;
+        font-size: 3rem;
+        border-radius: 1rem;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+
+    }
+
+    &--primary {
+
+        color: $color-white;
+        background-color: $color-primary-medium;
+
+    }
+
+}

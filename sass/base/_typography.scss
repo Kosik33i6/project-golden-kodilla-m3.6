@@ -3,3 +3,34 @@ html {
     font-family: 'Montserrat', sans-serif;
 
 }
+
+.heading-primary {
+
+    letter-spacing: .5rem;
+    color: map-get($color-secondary, "color-100");
+
+    &--title,
+    &--subtitle {
+
+        display: block;
+        text-align: center;
+        line-height: 2;
+
+    }
+
+    &--title {
+
+        letter-spacing: -1px;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 5rem;
+
+    }
+
+    &--subtitle {
+
+        font-size: 6.5rem;
+        text-transform: uppercase;
+
+    }
+}
