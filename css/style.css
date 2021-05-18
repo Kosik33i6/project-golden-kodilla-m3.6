@@ -1,0 +1,12 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3MvYmFzZS9fYmFzZS5zY3NzIiwic3R5bGUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7RUFJSSxTQUFTO0VBQ1QsVUFBVTtFQUNWLHNCQUFzQjtBQ0ExQjs7QURJQTtFQUVJLGdCQUFnQjtBQ0ZwQiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
