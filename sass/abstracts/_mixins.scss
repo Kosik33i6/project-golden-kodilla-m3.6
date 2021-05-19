@@ -1,0 +1,27 @@
+// ? small - 600
+// ? medium 900
+// ? big 1200
+
+@mixin breakpoint($size) {
+    @if $size==big {
+        @media only screen and (max-width: 1200px) {
+            @content;
+        }
+    }
+
+    @else if $size==medium {
+        @media only screen and (max-width: 900px) {
+
+            @content;
+        }
+    }
+
+    @else if $size==smal {
+        @media only screen and (max-width: 600px) {
+
+            @content;
+
+        }
+    }
+
+}

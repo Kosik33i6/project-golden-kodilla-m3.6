@@ -3,7 +3,6 @@
     &,
     &:link,
     &:visited {
-
         display: inline-block;
         width: 30rem;
         line-height: $btn-height;
@@ -13,14 +12,10 @@
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 600;
-
     }
 
     &--primary {
-
         color: $color-white;
         background-color: darken($color-primary-light, 15%);
-
     }
-
 }
