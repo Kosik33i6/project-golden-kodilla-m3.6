@@ -5,6 +5,10 @@
     transition: all .4s ease;
     padding: 2rem;
 
+    @include breakpoint(medium) {
+        flex-wrap: wrap;
+    }
+
     &__logo-box {
         flex-basis: 30%;
         display: flex;
@@ -30,17 +34,45 @@
         }
     }
 
+    &__list-box--visible {
+        @include breakpoint(medium) {
+            display: block;
+            flex-basis: 100%;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 80vh;
+            width: 90%;
+            background-color: map-get($color-secondary, "color-800");
+            z-index: 100;
+        }
+    }
+
     &__list-item {
         min-width: 100%;
         list-style: none;
         display: flex;
         justify-content: space-around;
+
+        @include breakpoint(medium) {
+            flex-wrap: wrap;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 90;
+        }
     }
 
     &__item {
         flex-basis: 18%;
         text-align: center;
         cursor: pointer;
+
+        @include breakpoint(medium) {
+            flex-basis: 100%;
+        }
     }
 
     &__link {
@@ -50,6 +82,7 @@
         text-decoration: none;
         text-transform: uppercase;
         font-size: $default-font-size;
+        user-select: none;
     }
 
     &__menu-box {
